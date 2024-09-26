@@ -1,0 +1,171 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-image: url("../backgrounds/layered-peaks-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: "roboto condensed", sans-serif;
+} 
+
+
+/* .roboto-condensed-<uniquifier> {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }*/
+
+img {
+    width: 310px;
+    height: 174px;
+}
+
+.pin1 {
+    width: 310px;
+    height: 200px;
+}
+
+.pin2 {
+    width: 310px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+}
+
+.principal {
+    font-size: 26px;
+    height:200px;
+    position: absolute;
+    right: 1200px;
+    text-align: center;
+}
+
+.ancora {
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 10px;
+    width: 100;
+}
+
+.elemento1 {
+    border: 3px solid black;
+    box-shadow: 4px 4px 8px black;
+    width: 310px;
+    height: 174px;
+    
+}
+.elemento2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    width: 400px;
+    height: 174px;
+}
+.elemento3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    width: 400px;
+    height: 174px;
+}
+.elemento4 {
+    border: 3px solid black;
+    box-shadow: 4px 4px 8px black;
+    width: 310px;
+    height: 174px;
+}
+.elemento5 {
+    border: 3px solid black;
+    box-shadow: 4px 4px 8px black;
+    width: 310px;
+    height: 174px;
+}
+.elemento6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    width: 400px;
+    height: 174px;
+}
+.elemento7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    width: 400px;
+    height: 200px;
+}
+.elemento8 {
+    border: 3px solid black;
+    box-shadow: 4px 4px 8px black;
+    width: 310px;
+    height: 200px;
+}
+.elemento9 {
+    border: 3px solid black;
+    box-shadow: 4px 4px 8px black;
+    width: 310px;
+    height: 200px;
+}
+.elemento10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    width: 400px;
+    height: 200px;
+}
+
+.rodape {
+    background-color: #ffffff50;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 250px;
+    font-weight: 700;
+}
+
+.rodh {
+    margin-top: 50px;
+    height: 20px;
+}
+
+p {
+    font-weight: bolder;
+}
+
+button {
+    position: fixed;
+    top: 5;
+    right: 0;
+    border-radius: 10px;
+    border: 0;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    padding: 10px 10px;
+    width: 145px;
+}
+button:hover {
+    background-color: rgb(91, 70, 231);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}

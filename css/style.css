@@ -1,0 +1,128 @@
+body {
+    background-image: url("../backgrounds/stacked-peaks-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "roboto condensed", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.principal {
+background-color: #ffffff33;
+margin-top: 25px;
+width: 450px;
+height:200px;
+text-align: center;
+font-weight: 600;
+letter-spacing: 1px;
+}
+
+.ancora {
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table {
+    width: 900px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #0000001a;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+.imge {
+    width: 150px;
+    height: 110px;
+}
+
+th,td {
+    background-color: #ffffff33;
+    padding: 15px;
+    color: #fff;
+}
+
+th {
+    text-align: left;
+}
+
+thead th {
+    background-color: rgb(82, 119, 121);
+}
+
+button {
+    border-radius: 10px;
+    border: 0;
+    padding: 8px;
+    position: fixed;
+    top: 1;
+    right: 0; 
+    background-color: rgb(78, 60, 190);
+    color: rgb(251, 255, 0);
+    width: 145px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(121, 102, 243);
+    transition: 0.2s ease-in-out;
+}
+
+.menutab {
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    justify-content: center;
+}
+
+.godcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.listnums {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    background-color: rgb(82, 119, 121);
+    width: 360px;
+}
+
+ul {
+    background-color: #ffffff33;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 20px #0000001a;
+    height: 210px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+ol {
+    background-color: #ffffff33;
+    color: #fff;
+    height: 210px;
+    width: 400px;
+    box-shadow: #0000001a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
